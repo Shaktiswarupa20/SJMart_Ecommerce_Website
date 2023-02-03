@@ -1,0 +1,272 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+                
+        .card h3{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: var(--black);
+       }
+       .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 50%;
+  padding-left: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 100px 16px;
+}
+
+.card .box{
+    width: 90%;
+    margin: .7rem 0;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+    </style>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <form action="" class="card">
+        <h3>sign up</h3>
+        <input type="email" placeholder="enter your valid email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <input type="password" placeholder="confirm password" class="box">
+        <p>Already have an account <a href="index.html"> Login now</a> </p>
+        <input type="submit" value="sign up" class="btn">
+    </form>
+
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- html file link  -->
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="signup.html">
+    <link rel="stylesheet" href="login.html">
+     <!-- custom js file link  -->
+     <script src="js/script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <style>
+      .signup-box .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.signup-box .logo i{
+    color: var(--orange);
+}
+
+      body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 400px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: -8%;
+}
+
+.signup-box .btn a{
+  padding-left: 100%;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 350px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: orange;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .5rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    margin-left: 35%;
+}
+
+.btn:hover{
+    background: var(--orange);
+    color: #fff;
+}
+    </style>
+  </head>
+  <body>
+    <div class="signup-box">
+      <a href="#" class="logo" style="margin-left: 30%;"> <i class="fas fa-shopping-basket"></i> SJ Mart </a>
+      <h1>Create new account</h1>
+      <h4></h4>
+      <form action="#" name="register" id="register">
+        <br>
+        <br>
+        <label> Name</label>
+        <input type="text" name="name" placeholder="Enter Your Full name" required/>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your Email" required/>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter Your password" required/>
+        
+      <closeform></closeform>
+      
+      <p>
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+      <p class="para-2">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+      <button type="submit" class="btn">SignUp</button>
+    </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $('form[id=register]').submit(function (event) {
+          if (request) {
+              request.abort();
+          }
+          // setup some local variables
+          var $form = $(this);
+
+          // let's select and cache all the fields
+          var $inputs = $form.find("input, select, button, textarea");
+
+
+          // serialize the data in the form
+          var serializedData = $form.serialize();
+
+
+          // fire off the request to specific url
+
+          var request = $.ajax({
+              url : "http://localhost:3000/api/register",
+              type: "post",
+              data: serializedData
+          });
+          // callback handler that will be called on success
+          request.done(function (response, textStatus, jqXHR){
+          if(response.hasOwnProperty('status')) {
+            if(response.status === true) {
+            alert("User Registered successfully");
+           } else {
+            alert("Something went wrong");
+           }
+          } else {
+            alert("Something went wrong");
+          }
+           
+          });
+
+          // callback handler that will be called on failure
+          request.fail(function (jqXHR, textStatus, errorThrown){
+            alert("Something went wrong");
+          });
+
+          // callback handler that will be called regardless
+          // if the request failed or succeeded
+          request.always(function () {
+              // reenable the inputs
+
+          });
+
+          // prevent default posting of form
+          event.preventDefault();
+          });
+  </script>
+  </body>
+</html>
